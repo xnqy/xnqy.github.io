@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>xnqy — Curated Finds & Thoughts</title>
+  <meta name="description" content="xnqy is a dark, modern blog for sharing discoveries, resources, and thoughts.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="color-scheme" content="dark light">
+  <!-- Open Graph for better sharing -->
+  <meta property="og:title" content="xnqy — Curated Finds & Thoughts">
+  <meta property="og:description" content="A dark, modern blog for sharing discoveries, resources, and thoughts.">
+  <meta property="og:image" content="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y">
+  <meta property="og:type" content="website">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <nav class="navbar" aria-label="Main Navigation">
+    <div class="nav-logo">xnqy</div>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#social">Social</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+  <header class="hero">
+    <div class="featured-post">
+      <h1><span class="highlight">xnqy</span> <span class="subtitle">blog</span></h1>
+      <p class="hero-desc">Curated finds, thoughts & inspiration — a dark, modern blog for sharing what’s interesting and what’s on my mind.</p>
+      <a href="#blog" class="cta-button">Read Latest</a>
+    </div>
+  </header>
+  <main>
+    <section id="blog" class="section blog-list" aria-label="Blog Section">
+      <h2>Latest Posts</h2>
+      <article class="blog-post featured">
+        <h3 class="post-title"><a href="#">Why Dark Themes Feel So Good</a></h3>
+        <div class="post-meta">
+          <span class="post-date" data-date="2025-06-04">June 4, 2025</span>
+          &middot; <span class="tag">Design</span>
+        </div>
+        <p class="post-excerpt">
+          A look into why dark themes are so popular, and how they can reduce eye strain while making everything look just a bit more premium...
+        </p>
+        <a href="#" class="read-more">Read More →</a>
+      </article>
+      <article class="blog-post">
+        <h3 class="post-title"><a href="#">Found: The Best Free Icon Sets</a></h3>
+        <div class="post-meta">
+          <span class="post-date" data-date="2025-06-02">June 2, 2025</span>
+          &middot; <span class="tag">Resources</span>
+        </div>
+        <p class="post-excerpt">
+          Sharing my favorite sources for beautiful, free icons you can use anywhere. Perfect for modern UIs and personal projects.
+        </p>
+        <a href="#" class="read-more">Read More →</a>
+      </article>
+      <article class="blog-post">
+        <h3 class="post-title"><a href="#">My Thoughts on Digital Minimalism</a></h3>
+        <div class="post-meta">
+          <span class="post-date" data-date="2025-06-01">June 1, 2025</span>
+          &middot; <span class="tag">Opinion</span>
+        </div>
+        <p class="post-excerpt">
+          Exploring how reducing digital clutter helps me focus, stay creative, and feel better online.
+        </p>
+        <a href="#" class="read-more">Read More →</a>
+      </article>
+    </section>
+
+    <!-- Social Media Links Section -->
+    <section id="social" class="section social" aria-label="Social Media Links">
+      <h2>Social</h2>
+      <div class="social-links">
+        <a href="https://www.instagram.com/iedwrd/" target="_blank" rel="noopener" class="social-link instagram" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2"/><rect x="7" y="7" width="10" height="10" rx="5" stroke="#fff" stroke-width="2"/><circle cx="17" cy="7" r="1" fill="#fff"/></svg>
+          Instagram
+        </a>
+        <a href="https://bsky.app/profile/edwrd.space" target="_blank" rel="noopener" class="social-link bsky" aria-label="Bluesky">
+          <svg width="28" height="28" viewBox="0 0 48 48" fill="none" aria-hidden="true"><ellipse cx="24" cy="24" rx="22" ry="22" stroke="#fff" stroke-width="2"/><path d="M12 24c4-8 20-8 24 0-4 8-20 8-24 0z" stroke="#fff" stroke-width="2" fill="none"/></svg>
+          Bluesky
+        </a>
+        <a href="https://x.com/xuqwy" target="_blank" rel="noopener" class="social-link x" aria-label="X (Twitter)">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect width="28" height="28" rx="7" fill="none"/><path d="M7 7l14 14M21 7l-14 14" stroke="#fff" stroke-width="2"/></svg>
+          X (Twitter)
+        </a>
+        <a href="https://www.github.com/xnqy" target="_blank" rel="noopener" class="social-link github" aria-label="GitHub">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="11" stroke="#fff" stroke-width="2"/><path d="M9.5 19c-4 1-4-2.5-5-3m10.5 3v-2.2c0-.6-.2-1-.5-1.3 1.7-.2 3.5-.8 3.5-3.7 0-.8-.3-1.4-.8-1.9.1-.2.3-1-.1-2-1.3-.2-2.7.5-3.4.5-.7 0-2.1-.7-3.4-.5-.4 1-.2 1.8-.1 2-.5.5-.8 1.1-.8 1.9 0 2.9 1.7 3.5 3.5 3.7-.2.2-.4.5-.4 1v2.2" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.chess.com/member/xkqy" target="_blank" rel="noopener" class="social-link chess" aria-label="Chess.com">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="13" stroke="#fff" stroke-width="2"/><rect x="11" y="6" width="6" height="10" rx="2" stroke="#fff" stroke-width="2"/><path d="M17 16v3h-6v-3" stroke="#fff" stroke-width="2"/></svg>
+          Chess.com
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="section about" aria-label="About Section">
+      <div class="about-content">
+        <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y" alt="xnqy avatar" class="about-avatar">
+        <h2>About <span class="highlight">xnqy</span></h2>
+        <p>
+          Hi, I’m <span class="highlight">xnqy</span> 👋<br>
+          This is my little corner of the web, where I share interesting things I find and my thoughts on design, tech, and whatever else inspires me.
+        </p>
+        <p>
+          This blog is minimalist, dark, and always evolving.<br>
+          Thanks for hanging out!
+        </p>
+        <div class="about-signature">
+          <span>— xnqy</span>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section contact" aria-label="Contact Section">
+      <h2>Contact</h2>
+      <p>Want to say hi or share something cool? <a href="mailto:your@email.com">Email me</a> or DM me on <a href="https://twitter.com/">Twitter</a>.</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2025 xnqy. Powered by <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.</p>
+    <button class="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">🌓</button>
+  </footer>
+  <script>
+    // Mobile nav toggle
+    document.querySelector('.nav-toggle').onclick = function() {
+      const navLinks = document.querySelector('.nav-links');
+      document.body.classList.toggle('nav-open');
+      this.setAttribute('aria-expanded', document.body.classList.contains('nav-open'));
+    };
+
+    // Theme toggle (dark/light)
+    const themeBtn = document.querySelector('.theme-toggle');
+    themeBtn.onclick = () => {
+      document.body.classList.toggle('light-theme');
+      localStorage.setItem('theme', document.body.classList.contains('light-theme') ? 'light' : 'dark');
+    };
+    // Persist theme
+    if (localStorage.getItem('theme') === 'light') {
+      document.body.classList.add('light-theme');
+    }
+
+    // Scroll to top button
+    const scrollBtn = document.getElementById('scrollTopBtn');
+    window.onscroll = function() {
+      scrollBtn.style.display = (window.scrollY > 140) ? 'block' : 'none';
+    };
+    scrollBtn.onclick = function() {
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    };
+
+    // Fade-in on scroll for posts (accessibility-friendly)
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.blog-post').forEach(post => observer.observe(post));
+  </script>
+</body>
+</html>
